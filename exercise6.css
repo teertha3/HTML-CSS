@@ -1,0 +1,70 @@
+.five-a {
+    font-family: Tahoma;
+    font-size: 25px;
+    font-weight: bold;
+}
+.five-b {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.deals {
+    font-size: 25px;
+    font-weight: bold;
+}
+.sales {
+    color: rgb(218, 69, 69);
+    font-size: 17px;
+    font-style: oblique;
+    margin-top: 10px;
+}
+.five-c {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+.title {
+    font-weight: bold;
+}
+.level {
+    color: rgb(118, 117, 117);
+    font-size: 14px;
+}
+.text {
+    font-size: 14px;
+}
+.b {
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    height: 30px;
+    width: 100px;
+}
+.five-d {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.h {
+    font-weight: bold;
+    font-size:22px;
+}
+.h2 {
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+}
+.link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align:center;
+    font-size: 16px;
+    display:block;
+}
