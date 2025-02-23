@@ -1,0 +1,105 @@
+<button class="back-button">Back</button>
+<a href="https://www.youtube.com/">1</a>
+<a href="https://www.youtube.com/">2</a>
+<a href="https://www.youtube.com/">3</a>
+<button class="next-button">Next</button>
+<br><br>
+<button class="stretch-button">Stretch</button>
+<button class="shadow-button">Shadow</button>
+<br><br>
+<button class="b">One</button>
+<button class="b">Two</button>
+<button class="b">Three</button>
+
+<style>
+    .back-button{
+        font-size: 13px;
+        color:black;
+        border-width:1px;
+        border-radius:3px;
+        font-style: bold;
+        height:30px;
+        width:50px;
+        background-color: rgb(235, 231, 231);
+        margin-right: 11px;
+    }
+    .next-button{
+        font-size: 13px;
+        color:black;
+        border-width:1px;
+        border-radius:3px;
+        font-style: bold;
+        height:30px;
+        width:50px;
+        background-color: rgb(235, 231, 231);
+        margin-left:11px;
+    }
+    .stretch-button{
+        color:white;
+        border:none;
+        background-color: green;
+        padding-top:7px;
+        padding-bottom:7px;
+        padding-right:12px;
+        padding-left:12px;
+        cursor:pointer;
+        transition: padding-right 0.20s, padding-top 0.20s, padding-bottom 0.20s padding-left 0.20s;
+
+    }
+    .stretch-button:hover{
+        background-color: green;
+        color:white;
+        padding-right: 20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left: 20px;
+
+    }
+    .shadow-button{
+        color:white;
+        border:none;
+        background-color: green;
+        font-size:14px;
+        padding-top:7px;
+        padding-bottom:7px;
+        padding-right:10px;
+        padding-left:10px;
+        cursor:pointer;
+        transition:box-shadow 0.15s ;
+        box-shadow: 4px 4px 7px rgba(0,0,0,0.2); 
+        position:relative;
+        transition: transform 0.4s ease;
+    }
+    .shadow-button:hover{
+        transform: translate(5px, 5px);
+    }
+
+    .b{
+        color:white;
+        border:none;
+        background-color:green;
+        font-size:16px;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-right:13px;
+        padding-left:13px;
+        margin-right:4px;
+        position:relative;
+        cursor:pointer;
+        box-sizing: border-box;
+        width:70px;
+        height:50px;
+        line-height: 40px;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+
+    }
+    .b:hover{
+        padding-right:20px;
+        padding-left:20px;
+        transform: scale(1.1);
+    }
+
+
+</style>
