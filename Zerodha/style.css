@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 3px rgba(49, 49, 49, 0.1);
+}
+.logo img {
+    width: 160px; 
+    height: 17px;
+    padding-left: 40px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777676;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a.active {
+    color: #0052cc;
+    font-weight: bold;
+}
+
+.charges {
+    margin-top: 120px;
+    margin-bottom:600px;
+}
+
+.charges h1 {
+
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.charges p {
+    font-size: 20px;
+    color: #a1a1a1;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 150px;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin-top: 190px;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.pricing-box {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    vertical-align: top;
+    
+}
+
+
+.pricing-box img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.pricing-box h3{
+    font-size:30px;
+    font-weight: normal;
+    margin:auto;
+    width: 350px;
+    margin-left: -40px;
+    margin-bottom: 30px;
+    
+    
+}
+.pricing-box p{
+    font-size:17px;
+    color:#6a6a6a;
+    width:350px;
+    line-height: 1.7;
+    margin-left: -40px;
+
+}
+
